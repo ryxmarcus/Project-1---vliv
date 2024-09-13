@@ -133,11 +133,12 @@
 </div>
 
 
+
 <!-- pink thing -->
 <div class="pink-thing-main  container-fluid">
   <div class="row  pink-row align-items-center px-5 mx-5 ">
     <div id="left " class="col-sm-6 ">
-     <h1 class="text-left big-headers display-5 ">Hassel free experience during the lockdown</h1>
+     <h1 class="text-left big-headers display-5 ">Hassel free experience </h1>
      <p>Here’s how we are ensuring a smooth design experience even in such times.</p>
     </div>
     <div id="right" class="col-sm-6 ">
@@ -995,5 +996,61 @@
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+<style>
+   #bik-widget-wrapper-zLgDnimUJbK6DgUvSnOP {
+            position: fixed;
+            right: 0px;  /* Position 20px from the right edge */
+            top: 50%;    /* Start at 50% from the top */
+            transform: translateY(-50%); /* Move up by half its height to center vertically */
+            z-index: 2147483647;
+        }
+
+        #bik-wa-zLgDnimUJbK6DgUvSnOP-cta {
+            position: static;
+            cursor: pointer;
+            border: none;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            padding: 0;
+            background: none;
+        }
+
+        .DoqUJb3TMdKBUSZk4Mw6 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+</style>
+
+</head>
+<body>
+<div id="bik-widget-wrapper-zLgDnimUJbK6DgUvSnOP" class="bik-widget__outer-wrapper">
+  <div id="bik-widget-root-zLgDnimUJbK6DgUvSnOP">
+      <button id="bik-wa-zLgDnimUJbK6DgUvSnOP-cta" class="XVk4P4haZrSPM6VwCTcI">
+          <div class="DoqUJb3TMdKBUSZk4Mw6">
+              <img width="70" height="70" src="https://storage.googleapis.com/bik-assets/bap%2Ffab-assets%2Fimages%2FDDQoj5ZVYwYd8aEtdFP5NRvL2Mk2%2F4b0d640ebd.png" alt="Fab image">
+              <div id="lottie-container-undefined" style="display: none;"></div>
+          </div>
+      </button>
+  </div>
+</div>
+<script>
+  function openWhatsApp() {
+      // Replace these values with your actual WhatsApp number and message
+      var phoneNumber = '7210476048';
+      var message = 'Hello! I\'m interested in your services.';
+
+      // Encode the message for URL
+      var encodedMessage = encodeURIComponent(message);
+
+      // Construct the WhatsApp URL
+      var whatsappUrl = 'https://wa.me/' + phoneNumber + '?text=' + encodedMessage;
+
+      // Open WhatsApp in a new tab
+      window.open(whatsappUrl, '_blank');
+  }
+</script> 
+</body>
 </html>
